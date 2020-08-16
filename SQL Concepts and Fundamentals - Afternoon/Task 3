@@ -1,0 +1,8 @@
+mysql> select Date_of_Discharge, count(*) from Patient group by Date_of_Discharge having Date_of_Discharge
+>= curdate() - interval dayofweek(curdate())+6 day and Date_of_Discharge < curdate() - interval dayofweek(curdate())-1 day;
++-------------------+----------+
+| Date_of_Discharge | count(*) |
++-------------------+----------+
+| 2020-08-12        |        2 |
++-------------------+----------+
+1 row in set (0.00 sec)

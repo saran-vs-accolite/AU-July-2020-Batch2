@@ -1,0 +1,13 @@
+mysql> select D.Doctor_ID, D.Doctor_Name, D.Department_ID, Dep.Department_Name, P.Patient_ID, P.Patient_Name from Doctor D join Department Dep on D.Department_ID=Dep.Department_ID Right join Patient P on D.Doctor_ID=P.Treating_Doctor_ID order by D.Doctor_ID;
+
+
++-----------+-------------+---------------+-----------------+------------+--------------+
+| Doctor_ID | Doctor_Name | Department_ID | Department_Name | Patient_ID | Patient_Name |
++-----------+-------------+---------------+-----------------+------------+--------------+
+|         1 | Ramesh      |             2 | Cardiology      |          2 | Raji         |
+|         1 | Ramesh      |             2 | Cardiology      |          3 | priya        |
+|         2 | Suresh      |             1 | Gynaecology     |          5 | mukesh       |
+|         2 | Suresh      |             1 | Gynaecology     |          1 | Rajeev       |
+|         3 | Mahesh      |             3 | Paediatrics     |          4 | jeeva        |
++-----------+-------------+---------------+-----------------+------------+--------------+
+5 rows in set (0.00 sec)
