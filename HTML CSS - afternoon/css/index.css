@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(190, 185, 185);
+}
+
+.body-container {
+    margin-top: 0em;
+    line-height: 1.5em;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 2em;
+}
+
+.top-header {
+    background-image: linear-gradient(to right, rgb(9, 2, 46),  rgb(7, 7, 214));
+    padding: 2em 5em;
+}
+
+.top-header img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-right: 75em;
+    margin-left: 1em;
+}
+
+.button {
+    position: relative;
+    top: -1.75em;
+    background-color: rgb(7, 4, 48);
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    float: left;
+    border-radius: 0.5em;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.main-article {
+    margin-left: 10em;
+    margin-bottom: 10em;
+    font-size: 20px;
+    line-height: 1.25em;
+}
+
+
+.main-article .main-article-image {
+    width: 40%;
+    float: left;
+    margin-right: 3em;
+}
+
+.main-article .main-article-content {
+    width: 45%;
+    float: left;
+    margin-left: 2em;
+}
+
+.main-article h1 {
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+
+.main-article p {
+    text-align: justify;
+}
+
+
+.container {
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+.container-title {
+    margin-bottom: 1em;
+}
+
+.container-title h1{
+    text-align: center;
+}
+
+.sub-blocks {
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 1em;
+    border: 10px grey solid;
+    background-color: white !important;
+    margin-left: 2em;
+    box-shadow: 10px 10px rgb(172, 170, 170);
+}
+
+.sub-blocks h2 {
+    text-align: center;
+    background-color: white;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.sub-blocks-image {
+    background-color: white;
+}
+
+.sub-blocks-content {
+    background-color: white;
+}
+
+.sub-blocks-image img{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.sub-blocks p {
+    background-color: white;
+}
+
+.footer {
+    padding: 5em 20em;
+    background-color: black;
+    color: white;
+}
+
+.column {
+    background-color: black;
+    width: 25%;
+    float: left;
+    margin-top: -10px;
+}
+
+
+.column ul {
+    background-color: black;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.column a {
+    text-decoration: none;
+}
+
+.fa {
+    text-decoration: none;
+    float: left;
+    width: 20%;
+}
+
+.column li {
+    padding: 0.25em;
+    text-align: center;
+}
+
+.social-media {
+    width: 70%;
+    margin-left: 2em;
+}
+
