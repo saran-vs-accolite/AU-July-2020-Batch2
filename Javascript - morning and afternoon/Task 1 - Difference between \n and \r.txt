@@ -1,0 +1,4 @@
+-> Carriage Return '\r' moves the cursor to the start of the current line
+-> New Line '\n' moves the cursor to the beginning of the next line
+
+-> '\r' doesnt find much use these days, as it was initially introduced in ancient editors in conjunction with '\n' to move cursor to start of next line as '\n' would move the cursor directly below the place where '\n' was pressed.
