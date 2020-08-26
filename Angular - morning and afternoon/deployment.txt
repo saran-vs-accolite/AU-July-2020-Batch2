@@ -1,0 +1,6 @@
+The app has been Successfully deployed in github pages
+
+URL: https://saran-vs-accolite.github.io/autraining-assignment/home
+
+
+NOTE: I created a separate reporsitory with the copy of this project so that deployment can be done in github
