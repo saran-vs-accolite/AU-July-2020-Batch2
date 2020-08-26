@@ -1,0 +1,62 @@
+<form (ngSubmit)="displayDetails()" [formGroup]="userProfile">
+    <h1>User Profile</h1>
+    <div>
+        <label>
+            First Name:
+            <input type="text" formControlName="firstName"> 
+            <span *ngIf="isInvalid('firstName')">&nbsp;Invalid First name</span>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Last Name:
+            <input type="text" formControlName="lastName">
+            <span *ngIf="isInvalid('lastName')">&nbsp;Invalid Last name</span>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Gender (M/F/O):
+            <input type="text" formControlName="gender">
+            <span *ngIf="isInvalid('gender')">&nbsp;Invalid Gender</span>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Date Of Birth:
+            <input type="date" formControlName="dateOfBirth">
+            <span *ngIf="isInvalid('dateOfBirth')">&nbsp;Invalid Date of Birth</span>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Phone Number:
+            <input type="text" formControlName="phoneNumber">
+            <span *ngIf="isInvalid('phoneNumber')">&nbsp;Invalid Phone number</span>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Marks Twelfth (Out of 1200)
+            <input type="text" formControlName="marksTwelth">
+            <span *ngIf="isInvalid('marksTwelth')">&nbsp;Invalid twelfth marks</span>
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Marks Tenth (Out of 500):
+            <input type="text" formControlName="marksTenth">
+            <span *ngIf="isInvalid('marksTenth')">&nbsp;Invalid tenth marks</span>
+        </label>
+    </div>
+
+    <input type="submit" value="Submit Form">
+
+</form>
+
